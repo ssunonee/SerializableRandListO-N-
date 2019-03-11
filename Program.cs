@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 
-namespace t
+namespace RandList
 {
     class Program
     {

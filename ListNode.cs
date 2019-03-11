@@ -1,17 +1,15 @@
-using System;
-
-namespace t
+namespace RandList
 {
     public class ListNode
     {
-        public ListNode Previous;
-        public ListNode Next;
-        public ListNode Random;
-        public string Data;
+        public ListNode prev;
+        public ListNode next;
+        public ListNode rand;
+        public string data;
 
-        public ListNode(string _Data)
+        public ListNode(string _data)
         {
-            Data = _Data;
+            data = _data;
         }
     }
 }
